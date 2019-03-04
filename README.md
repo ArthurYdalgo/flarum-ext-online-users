@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/kvothe/online-users.svg)](https://packagist.org/packages/kvothe/online-users)
 
 A [Flarum](http://flarum.org) extension. Adds a list of online users.
-Original Extension by @AntoineFr. 
+Original Extension by [AntoineFr](https://github.com/AntoineFr/flarum-ext-online). 
 
 ### Screenshots
 ![Forum](https://i.imgur.com/UIJTiWk.png)
