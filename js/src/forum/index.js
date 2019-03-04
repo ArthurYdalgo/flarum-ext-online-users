@@ -6,14 +6,14 @@ import avatar from 'flarum/helpers/avatar';
 import username from 'flarum/helpers/username';
 
 function orderByLastSeenTime(a, b) {
-    if (a.lastSeenTime() > b.lastSeenTime())
+    if (a.lastSeenAt() > b.lastSeenAt())
         return -1;
-    if (a.lastSeenTime() < b.lastSeenTime())
+    if (a.lastSeenAt() < b.lastSeenAt())
         return 1;
     return 0;
 }
 
-app.initializers.add('antoinefr-online', function() {
+app.initializers.add('kvothe-online-users', function() {
     extend(IndexPage.prototype, 'sidebarItems', function(items) {
         const displayMax = parseInt(app.forum.attribute('antoinefr-online.displaymax'));
         const users = app.store.all('users').filter(u => u.isOnline());

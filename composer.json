@@ -1,25 +1,37 @@
 {
-    "name": "antoinefr/flarum-ext-online",
-    "description": "Display online users on the left sidebar.",
-    "type": "flarum-extension",
-    "support": {
-        "issues": "https://github.com/AntoineFr/flarum-ext-online/issues",
-        "source": "https://github.com/AntoineFr/flarum-ext-online"
-    },
-    "require": {
-        "flarum/core": "^0.1.0-beta.7"
-    },
-    "autoload": {
-        "psr-4": {
-            "AntoineFr\\Online\\": "src/"
-        }
-    },
-    "extra": {
-        "flarum-extension": {
-            "title": "Online",
-            "icon": {
-                "name": "user-circle"
-            }
-        }
+  "name": "kvothe/online-users",
+  "description": "Adds a list of online users.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "authors": [
+    {
+      "name": "Kvothe",
+      "email": "",
+      "role": "Developer"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kvothe\\OnlineUsers\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Online Users",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
 }
